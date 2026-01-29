@@ -3,24 +3,24 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:acuratio.com:app",
+  "id": "did:web:lucasmorales18.github.io:acuratiogaiax",
   "verificationMethod": [
     {
       "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
-      "id": "did:web:acuratio.com:app#X509-JWK2020",
+      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
       "type": "JsonWebKey",
-      "controller": "did:web:acuratio.com:app",
+      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
       "publicKeyJwk": {
         "kty": "RSA",
         "n": "4CO0X2kgUPtPgeuF_JFz4s1XnzSKWKgaIn6vYC7yhSIkv-caPvnZIQ6war5iStTQWYdV15onLjaeSPUS2jtovHAl8NhGjb6XG1mLSS0KR4_KelH8B-82UqDqanXUniOuwYETd33DuOq9erxmoC8wR-i0ujq1yodWI8SUfYdDEVBJUCDMY8uKNHu6xb29z3BoqynZclLLaySLobvpnDtLJUQMPNF42_o5ABIqo2yyx8WishPgacspvbemfOn-YmjAe1NJthT26etYrpzDNWi8E0YvUxEOVjBC88fnzoucVqNNzDypeChltYSiElaWWiR1DM4I4BjPhXz_zElgn9Jt_w",
         "e": "AQAB",
         "kid": "X509-JWK2020",
         "alg": "PS256",
-        "x5u": "https://acuratio.com/app/.well-known/x509CertificateChain.pem"
+        "x5u": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/x509CertificateChain.pem"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:acuratio.com:app#X509-JWK2020"
+    "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020"
   ]
 }
