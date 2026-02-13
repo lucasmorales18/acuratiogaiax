@@ -1,14 +1,16 @@
-# Environmental Impact Report
+# Data Protection Regulation Measures
 
 ## Purpose
 
-To assess and report on the environmental impact of the service offering.
+To define technical and organizational measures for GDPR compliance, including data subject rights, privacy by design, data breach procedures, and cross-border transfer safeguards.
 
 ## Policy
 
-- The Provider must monitor and report on energy consumption, carbon footprint, and other relevant environmental metrics.
-- Measures to reduce environmental impact must be implemented where feasible.
+- Personal data must be processed in accordance with GDPR and other applicable data protection laws.
+- Data subject rights must be respected and facilitated.
+- Data breaches must be reported and managed according to legal requirements.
+- Cross-border data transfers must comply with applicable safeguards.
 
 ## Review
 
-Environmental impact reports must be updated and published regularly.
+Data protection measures must be reviewed and updated regularly.
