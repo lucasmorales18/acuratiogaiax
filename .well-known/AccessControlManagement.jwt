@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://w3id.org/gaia-x/development#"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "gx:AccessControlManagement",
+    "AccessControlManagement",
+    "https://w3id.org/gaia-x/development#AccessControlManagement"
+  ],
+  "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/AccessControlManagement#cs",
+  "issuer": "did:web:lucasmorales18.github.io:acuratiogaiax",
+  "validFrom": "2026-02-23T11:57:39.234+00:00",
+  "validUntil": "2027-02-23T11:57:39.234+00:00",
+  "credentialSubject": {
+    "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/AccessControlManagement#cs",
+    "type": [
+      "gx:AccessControlManagement",
+      "AccessControlManagement",
+      "https://w3id.org/gaia-x/development#AccessControlManagement"
+    ],
+    "gx:url": {
+      "@type": "xsd:anyURI",
+      "@value": "https://lucasmorales18.github.io/acuratiogaiax/legaldocs/AccessControlManagement.md"
+    }
+  }
+}
