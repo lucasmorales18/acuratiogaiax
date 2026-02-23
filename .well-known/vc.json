@@ -13,12 +13,15 @@
   ],
   "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_instance-001.jwt",
   "issuer": "did:web:lucasmorales18.github.io:acuratiogaiax",
-  "validFrom": "2026-02-23T16:17:30.042+00:00",
-  "validUntil": "2026-03-02T16:17:30.042+00:00",
+  "validFrom": "2026-02-23T16:26:24.998+00:00",
+  "validUntil": "2026-03-02T16:26:24.998+00:00",
   "credentialSubject": {
     "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_instance-001.jwt#cs",
-    "schema:name": "Acuratio Europe S.L.U.",
-    "schema:description": "ai_infrastructure_provider",
+    "schema:memberOf": {
+      "@type": "Organization",
+      "schema:name": "Gaia-X Association",
+      "schema:url": "https://www.gaia-x.eu/"
+    },
     "gx:registrationNumber": {
       "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/lrn-vat.jwt"
     },
