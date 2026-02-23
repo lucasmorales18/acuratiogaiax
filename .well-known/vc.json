@@ -1,0 +1,62 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://w3id.org/gaia-x/development#",
+    {
+      "vcard": "http://www.w3.org/2006/vcard/ns#",
+      "schema": "https://schema.org/"
+    }
+  ],
+  "type": [
+    "VerifiableCredential",
+    "gx:LegalPerson"
+  ],
+  "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_instance-001.jwt",
+  "issuer": "did:web:lucasmorales18.github.io:acuratiogaiax",
+  "validFrom": "2026-02-23T11:00:01.421+00:00",
+  "validUntil": "2026-03-02T11:00:01.421+00:00",
+  "credentialSubject": {
+    "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_instance-001.jwt#cs",
+    "schema:name": "Acuratio Europe S.L.U.",
+    "schema:description": "ai_infrastructure_provider",
+    "gx:registrationNumber": {
+      "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/lrn-vat.jwt"
+    },
+    "gx:headquartersAddress": {
+      "type": "gx:Address",
+      "gx:countryCode": "ES",
+      "vcard:street-address": "Portuetxe Kalea 23A, Planta 4, Oficina 406",
+      "vcard:locality": "San Sebastian",
+      "vcard:postal-code": "20018"
+    },
+    "gx:legalAddress": {
+      "type": "gx:Address",
+      "gx:countryCode": "ES",
+      "vcard:street-address": "Avenida Añorga 22, 7A",
+      "vcard:locality": "San Sebastian",
+      "vcard:postal-code": "20018"
+    },
+    "gx:subOrganisationOf": {
+      "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_sub_instance-001.jwt#cs",
+      "schema:name": "My Node Company S.L.",
+      "schema:description": "hospital",
+      "gx:registrationNumber": {
+        "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/lrn-vat_DEB12345678.jwt"
+      },
+      "gx:headquartersAddress": {
+        "type": "gx:Address",
+        "gx:countryCode": "ES",
+        "vcard:street-address": "Calle 123, Planta 1, Oficina 101",
+        "vcard:locality": "Madrid",
+        "vcard:postal-code": "22222"
+      },
+      "gx:legalAddress": {
+        "type": "gx:Address",
+        "gx:countryCode": "ES",
+        "vcard:street-address": "Avenida 456, Planta 2, Oficina 202",
+        "vcard:locality": "Madrid",
+        "vcard:postal-code": "33333"
+      }
+    }
+  }
+}
