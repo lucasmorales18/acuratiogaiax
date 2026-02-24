@@ -13,8 +13,8 @@
   ],
   "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_instance-001.jwt",
   "issuer": "did:web:lucasmorales18.github.io:acuratiogaiax",
-  "validFrom": "2026-02-23T16:32:28.373+00:00",
-  "validUntil": "2026-03-02T16:32:28.373+00:00",
+  "validFrom": "2026-02-24T10:48:49.357+00:00",
+  "validUntil": "2026-03-03T10:48:49.357+00:00",
   "credentialSubject": {
     "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_instance-001.jwt#cs",
     "schema:name": "Acuratio Europe S.L.U.",
@@ -37,7 +37,7 @@
       "vcard:postal-code": "20018"
     },
     "gx:subOrganisationOf": {
-      "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_sub_instance-001.jwt#cs",
+      "id": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/vc_subinstance-001.jwt#cs",
       "schema:name": "My Node Company S.L.",
       "schema:description": "hospital",
       "gx:registrationNumber": {
