@@ -52,5 +52,12 @@
     "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
     "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
     "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2"
+  ],
+  "service": [
+    {
+      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
+      "type": "CredentialService",
+      "serviceEndpoint": "http://100.72.112.45:10001/api/presentation"
+    }
   ]
 }
