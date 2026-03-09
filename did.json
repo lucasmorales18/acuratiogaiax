@@ -12,8 +12,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-256",
-        "x": "rI6RqoPeWxkea8wkHBLigAEyMl64M2NWErFIk0_bR54",
-        "y": "923bokZ69X-ekW2Zg4Km4xYKmsGt3XwvQTzJBmmZx9Y",
+        "x": "5MBnkDWSL2tXi38KK4187zEA2S9JHdhbZzsXZOOwbuM",
+        "y": "2aM9fJXTQi3gpSTg5L-EYrIiYHHgeIKOOBxxB6WBOPA",
         "kid": "keys-1"
       }
     },
@@ -24,8 +24,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-256",
-        "x": "kKpvxXoDbiLAjvyxDfzZqEjtYTVubqMDR1PWNNRyp3s",
-        "y": "QZ6MK4gu0fpW0fmM15JMaY0iHpIAOOVHIrynz6ib6h0",
+        "x": "5kSeRl9g8NYctZRYOG1m-dwdKiexboucHt5c9WyXmjo",
+        "y": "UzTtrgpNsKbKHy-X9HJ3FN8XwkaEmhYEGenCe6YkjQU",
         "kid": "keys-2"
       }
     },
@@ -56,7 +56,7 @@
     {
       "id": "did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
       "type": "CredentialService",
-      "serviceEndpoint": "http://100.84.5.51:10001/api/presentation/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
+      "serviceEndpoint": "http://100.86.103.123:10001/api/presentation/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
     }
   ]
 }
