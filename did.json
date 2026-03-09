@@ -24,8 +24,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-256",
-        "x": "pl7PbctMqfDS47P-ES-xGtpJ68qQrG5AwtunCvTEiUE",
-        "y": "wepBFEXQknCRv9L9aeWUnPW01IrEOxmBy4dAMw-6jb8",
+        "x": "sUzst7SoFblABsw4ECW1jy8RogU4jh-oVwE-LK09uFE",
+        "y": "MNws76rOHFx21DleEZTYxMtrAAGCiJSY9BFTB-NPrj8",
         "kid": "keys-2"
       }
     },
@@ -56,7 +56,7 @@
     {
       "id": "did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
       "type": "CredentialService",
-      "serviceEndpoint": "http://100.111.20.1:10001/api/presentation/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
+      "serviceEndpoint": "http://100.121.3.23:10001/api/presentation/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
     }
   ]
 }
