@@ -25,7 +25,7 @@
         "kty": "EC",
         "crv": "P-256",
         "x": "EB2Zrs7pe6M9qiyJVsZKQSgcWYobe5bRh7cvLbW-OcY",
-        "y": "EB2Zrs7pe6M9qiyJVsZKQSgcWYobe5bRh7cvLbW-OcY",
+        "y": "TAHWpyXESyS9vp-rBBvI9u96-WEjhw5U3AeFDMSkN1I",
         "kid": "keys-2"
       }
     },
