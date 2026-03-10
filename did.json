@@ -6,32 +6,9 @@
   "id": "did:web:lucasmorales18.github.io:acuratiogaiax",
   "verificationMethod": [
     {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "P-256",
-        "x": "7HoK5XfZu4ImyxCha6R354KuJlDomOWvewCfl5mTV_g",
-        "y": "SAiyOjwAeg9D-_3iUmbrXypq_YLApuVPj7qRG_BAzoc",
-        "kid": "keys-1"
-      }
-    },
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "P-256",
-        "x": "sUzst7SoFblABsw4ECW1jy8RogU4jh-oVwE-LK09uFE",
-        "y": "MNws76rOHFx21DleEZTYxMtrAAGCiJSY9BFTB-NPrj8",
-        "kid": "keys-2"
-      }
-    },
-    {
+      "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
       "id": "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
-      "type": "JsonWebKey2020",
+      "type": "JsonWebKey",
       "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
       "publicKeyJwk": {
         "kty": "RSA",
@@ -43,20 +20,7 @@
       }
     }
   ],
-  "authentication": [
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2"
-  ],
   "assertionMethod": [
-    "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2"
-  ],
-  "service": [
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
-      "type": "CredentialService",
-      "serviceEndpoint": "http://100.121.3.23:10001/api/presentation/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
-    }
+    "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020"
   ]
 }
