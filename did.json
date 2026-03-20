@@ -12,8 +12,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-256",
-        "x": "R6_Z-uqn1iJ6CgIqgu6qp-2l9vuC4DfabT-74aoCpWQ",
-        "y": "ucVt91nlJQJtantQwTXGkr4UTqW11MxJ61sT0ILhvgg",
+        "x": "qZPlPO3ziSXXTBvVzy-FlMhjd1PpzFgU7LXIfaQdrPM",
+        "y": "VF-isdUkIv974M8C4PN4Ae_2Fw0n2cp2JRJRmkw2ASo",
         "kid": "keys-1"
       }
     },
@@ -24,8 +24,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-256",
-        "x": "kDVqbmk0AXQq94QYD402heRgvECHGjktScSCbkB710E",
-        "y": "VHxQIaJ4FjYwPCkwnlmTzi-NJllrqYGt9gtJ2YCOpVg",
+        "x": "iFMEOI0F-nBxJYKC7sHWZfTx5xys21nXY2LDy3vjQdg",
+        "y": "7tXxIIUFsGuhsnM9PYxOEaR2zvoa1RPDma6p0GVbuls",
         "kid": "keys-2"
       }
     },
