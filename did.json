@@ -1,62 +1,34 @@
-{
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
-  ],
-  "id": "did:web:lucasmorales18.github.io:acuratiogaiax",
-  "verificationMethod": [
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "P-256",
-        "x": "qZPlPO3ziSXXTBvVzy-FlMhjd1PpzFgU7LXIfaQdrPM",
-        "y": "VF-isdUkIv974M8C4PN4Ae_2Fw0n2cp2JRJRmkw2ASo",
-        "kid": "keys-1"
+  {
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:lucasmorales18.github.io:acuratiogaiax",
+    "verificationMethod": [
+      {
+        "id": "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
+        "publicKeyJwk": {
+          "kty": "RSA",
+          "n": "r8fAd8g6RU3D7uGEjceQpKlaJMyYIT95DVVXRnlIK8MPofGAb9d54RHJckji5bzwihVlYayq7d398vzHw5em6nUFxXbg2irk0pJ-kbBz0w3-PbqKA5ugHZRxP7TjYDWUsXr3ahLejSkGpLzSFoXzdtB4FURg-elpeX0ntQEpiMp6ga
+  1Zp5MFiXs8yHYL0sY-69EeXIiCwH9YyJTjmcngZ7q1YuibzNK-7h0nCnIm2-jh0_MTsensN8DXbM5BN2jYRqOb4KHcl0LhjGXMrGRAUqIrS8JUllyurvgvdK2HFqWTO3ckKHJS-5HuaMHnciP9-AKsDcQrkmmtZ6Uut2OqiQ",
+          "e": "AQAB",
+          "kid": "X509-JWK2020",
+          "alg": "PS256",
+          "x5u": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/x509CertificateChain.pem"
+        }
       }
-    },
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "P-256",
-        "x": "iFMEOI0F-nBxJYKC7sHWZfTx5xys21nXY2LDy3vjQdg",
-        "y": "7tXxIIUFsGuhsnM9PYxOEaR2zvoa1RPDma6p0GVbuls",
-        "kid": "keys-2"
+    ],
+    "authentication": [],
+    "assertionMethod": [
+      "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020"
+    ],
+    "service": [
+      {
+        "id": "did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
+        "type": "CredentialService",
+        "serviceEndpoint": "http://100.126.248.39:7081/api/credentials/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
       }
-    },
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
-      "publicKeyJwk": {
-        "kty": "RSA",
-        "n": "4CO0X2kgUPtPgeuF_JFz4s1XnzSKWKgaIn6vYC7yhSIkv-caPvnZIQ6war5iStTQWYdV15onLjaeSPUS2jtovHAl8NhGjb6XG1mLSS0KR4_KelH8B-82UqDqanXUniOuwYETd33DuOq9erxmoC8wR-i0ujq1yodWI8SUfYdDEVBJUCDMY8uKNHu6xb29z3BoqynZclLLaySLobvpnDtLJUQMPNF42_o5ABIqo2yyx8WishPgacspvbemfOn-YmjAe1NJthT26etYrpzDNWi8E0YvUxEOVjBC88fnzoucVqNNzDypeChltYSiElaWWiR1DM4I4BjPhXz_zElgn9Jt_w",
-        "e": "AQAB",
-        "kid": "X509-JWK2020",
-        "alg": "PS256",
-        "x5u": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/x509CertificateChain.pem"
-      }
-    }
-  ],
-  "authentication": [
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2"
-  ],
-  "assertionMethod": [
-    "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-1",
-    "did:web:lucasmorales18.github.io:acuratiogaiax#keys-2"
-  ],
-  "service": [
-    {
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
-      "type": "CredentialService",
-      "serviceEndpoint": "http://100.126.248.39:7081/api/credentials/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
-    }
-  ]
-}
+    ]
+  }
