@@ -1,34 +1,35 @@
-  {
-    "@context": [
+{
+   "@context":[
       "https://www.w3.org/ns/did/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
-    ],
-    "id": "did:web:lucasmorales18.github.io:acuratiogaiax",
-    "verificationMethod": [
+   ],
+   "id":"did:web:lucasmorales18.github.io:acuratiogaiax",
+   "verificationMethod":[
       {
-        "id": "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
-        "type": "JsonWebKey2020",
-        "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
-        "publicKeyJwk": {
-          "kty": "RSA",
-          "n": "r8fAd8g6RU3D7uGEjceQpKlaJMyYIT95DVVXRnlIK8MPofGAb9d54RHJckji5bzwihVlYayq7d398vzHw5em6nUFxXbg2irk0pJ-kbBz0w3-PbqKA5ugHZRxP7TjYDWUsXr3ahLejSkGpLzSFoXzdtB4FURg-elpeX0ntQEpiMp6ga
-  1Zp5MFiXs8yHYL0sY-69EeXIiCwH9YyJTjmcngZ7q1YuibzNK-7h0nCnIm2-jh0_MTsensN8DXbM5BN2jYRqOb4KHcl0LhjGXMrGRAUqIrS8JUllyurvgvdK2HFqWTO3ckKHJS-5HuaMHnciP9-AKsDcQrkmmtZ6Uut2OqiQ",
-          "e": "AQAB",
-          "kid": "X509-JWK2020",
-          "alg": "PS256",
-          "x5u": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/x509CertificateChain.pem"
-        }
+         "id":"did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
+         "type":"JsonWebKey2020",
+         "controller":"did:web:lucasmorales18.github.io:acuratiogaiax",
+         "publicKeyJwk":{
+            "kty":"RSA",
+            "n":"r8fAd8g6RU3D7uGEjceQpKlaJMyYIT95DVVXRnlIK8MPofGAb9d54RHJckji5bzwihVlYayq7d398vzHw5em6nUFxXbg2irk0pJ-kbBz0w3-PbqKA5ugHZRxP7TjYDWUsXr3ahLejSkGpLzSFoXzdtB4FURg-elpeX0ntQEpiMp6ga1Zp5MFiXs8yHYL0sY-69EeXIiCwH9YyJTjmcngZ7q1YuibzNK-7h0nCnIm2-jh0_MTsensN8DXbM5BN2jYRqOb4KHcl0LhjGXMrGRAUqIrS8JUllyurvgvdK2HFqWTO3ckKHJS-5HuaMHnciP9-AKsDcQrkmmtZ6Uut2OqiQ",
+            "e":"AQAB",
+            "kid":"X509-JWK2020",
+            "alg":"PS256",
+            "x5u":"https://lucasmorales18.github.io/acuratiogaiax/.well-known/x509CertificateChain.pem"
+         }
       }
-    ],
-    "authentication": [],
-    "assertionMethod": [
+   ],
+   "authentication":[
+      
+   ],
+   "assertionMethod":[
       "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020"
-    ],
-    "service": [
+   ],
+   "service":[
       {
-        "id": "did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
-        "type": "CredentialService",
-        "serviceEndpoint": "http://100.126.248.39:7081/api/credentials/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
+         "id":"did:web:lucasmorales18.github.io:acuratiogaiax#credential-service",
+         "type":"CredentialService",
+         "serviceEndpoint":"http://100.126.248.39:7081/api/credentials/v1/participants/ZGlkOndlYjpsdWNhc21vcmFsZXMxOC5naXRodWIuaW86YWN1cmF0aW9nYWlheA"
       }
-    ]
-  }
+   ]
+}
